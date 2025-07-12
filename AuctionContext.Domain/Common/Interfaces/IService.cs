@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AuctionContext.Domain.Common.Interfaces
 {
-    public class IService
+    public interface IService
     {
 
     }

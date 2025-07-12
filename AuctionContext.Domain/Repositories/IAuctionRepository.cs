@@ -1,4 +1,5 @@
-﻿using AuctionContext.Domain.Entity;
+﻿using AuctionContext.Domain.Common.Interfaces;
+using AuctionContext.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AuctionContext.Domain.Repositories
 {
-    public interface IAuctionRepository
+    public interface IAuctionRepository:IRepository
     {
         public long GettNextAuctionId();
         public Task AddAuction(Auction auction, CancellationToken token);
