@@ -1,0 +1,1 @@
+﻿توی فولدر valueobj های domain هرکدوم از پوشه ها مر بوط به یه aggreagate هست

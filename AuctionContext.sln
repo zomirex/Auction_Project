@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A82460EF-AD58-4B6F-BB5B-202DBE924A01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3DA08263-7E18-4B68-8DBD-AC641F10B5B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4E057B64-01A2-4BBF-B30C-5F7CF86AE41F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{500F35B6-7A7D-4678-A67A-C61007384FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionContext.Domain", "AuctionContext.Domain\AuctionContext.Domain.csproj", "{02E1A764-5339-47E1-9A3D-54A4184D20BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BB68954-C762-4EA0-9E39-8C0E66365C1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AADA933C-04A1-4E9C-BE0F-225148199296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9766D988-883E-40D9-AEC0-24738EB8FE0A}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionContext.Services", "AuctionContext.Services\AuctionContext.Services.csproj", "{A42BA7D8-3DAF-474C-AB2C-3B4E580AB4CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionContext.Persistance.Ef", "AuctionContext.Persistance.Ef\AuctionContext.Persistance.Ef.csproj", "{6D8A9829-807F-4FED-99F4-FD6430A60B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionContext.Read.Dapper", "AuctionContext.Read.Dapper\AuctionContext.Read.Dapper.csproj", "{A335CB89-9011-42A8-8EC6-1F15B5607DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionContext.Apllication", "AuctionContext.Apllication\AuctionContext.Apllication.csproj", "{9DD99E36-DCE5-48F4-8B98-CDA3645BC1B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E1A764-5339-47E1-9A3D-54A4184D20BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E1A764-5339-47E1-9A3D-54A4184D20BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E1A764-5339-47E1-9A3D-54A4184D20BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E1A764-5339-47E1-9A3D-54A4184D20BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42BA7D8-3DAF-474C-AB2C-3B4E580AB4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42BA7D8-3DAF-474C-AB2C-3B4E580AB4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42BA7D8-3DAF-474C-AB2C-3B4E580AB4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42BA7D8-3DAF-474C-AB2C-3B4E580AB4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8A9829-807F-4FED-99F4-FD6430A60B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8A9829-807F-4FED-99F4-FD6430A60B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8A9829-807F-4FED-99F4-FD6430A60B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8A9829-807F-4FED-99F4-FD6430A60B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A335CB89-9011-42A8-8EC6-1F15B5607DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A335CB89-9011-42A8-8EC6-1F15B5607DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A335CB89-9011-42A8-8EC6-1F15B5607DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A335CB89-9011-42A8-8EC6-1F15B5607DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD99E36-DCE5-48F4-8B98-CDA3645BC1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD99E36-DCE5-48F4-8B98-CDA3645BC1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD99E36-DCE5-48F4-8B98-CDA3645BC1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD99E36-DCE5-48F4-8B98-CDA3645BC1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A82460EF-AD58-4B6F-BB5B-202DBE924A01} = {6BB68954-C762-4EA0-9E39-8C0E66365C1E}
+		{3DA08263-7E18-4B68-8DBD-AC641F10B5B4} = {6BB68954-C762-4EA0-9E39-8C0E66365C1E}
+		{4E057B64-01A2-4BBF-B30C-5F7CF86AE41F} = {6BB68954-C762-4EA0-9E39-8C0E66365C1E}
+		{500F35B6-7A7D-4678-A67A-C61007384FC7} = {6BB68954-C762-4EA0-9E39-8C0E66365C1E}
+		{02E1A764-5339-47E1-9A3D-54A4184D20BE} = {A82460EF-AD58-4B6F-BB5B-202DBE924A01}
+		{A42BA7D8-3DAF-474C-AB2C-3B4E580AB4CB} = {4E057B64-01A2-4BBF-B30C-5F7CF86AE41F}
+		{6D8A9829-807F-4FED-99F4-FD6430A60B54} = {4E057B64-01A2-4BBF-B30C-5F7CF86AE41F}
+		{A335CB89-9011-42A8-8EC6-1F15B5607DB4} = {4E057B64-01A2-4BBF-B30C-5F7CF86AE41F}
+		{9DD99E36-DCE5-48F4-8B98-CDA3645BC1B7} = {3DA08263-7E18-4B68-8DBD-AC641F10B5B4}
+	EndGlobalSection
+EndGlobal
